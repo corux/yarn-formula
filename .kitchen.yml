@@ -9,13 +9,6 @@ platforms:
 provisioner:
   name: salt_solo
   formula: yarm
-  pillars-from-files:
-    yarn.sls: pillar.example
-  pillars:
-    top.sls:
-      base:
-        "*":
-          - yarn
   state_top:
     base:
       "*":
