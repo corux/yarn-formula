@@ -1,2 +1,4 @@
 .kitchen
 Gemfile.lock
+.venv/
+srv/

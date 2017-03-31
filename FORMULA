@@ -3,5 +3,6 @@ os: CentOS, Fedora
 os_family: RedHat
 version: 201703
 release: 1
+dependencies: node
 summary: Formula for installing Yarn
 description: Formula for installing the Yarn package manager

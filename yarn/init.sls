@@ -1,3 +1,6 @@
+include:
+  - node
+
 yarn-repo-key:
   cmd.run:
     - name: rpm --import https://dl.yarnpkg.com/rpm/pubkey.gpg

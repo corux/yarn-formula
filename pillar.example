@@ -1,0 +1,2 @@
+node:
+  - install_from_repo: True
